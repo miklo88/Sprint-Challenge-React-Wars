@@ -1,8 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('./masteryoda.jpg');
+  border: 2px solid black;
+  padding: 25px;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+:root {
+  --helveticaFamily: 'Helvetica', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: white;
+  font-family: var(--helveticaFamily);
+  font-size: 4rem;
 }
-/* write your parent styles in here for your App.js */
+
+.CardClass {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
