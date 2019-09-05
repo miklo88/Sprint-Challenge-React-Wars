@@ -1,11 +1,9 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: Helvetica, sans-serif;
   background-image: url('./masteryoda.jpg');
-  border: 2px solid black;
-  padding: 25px;
-  margin: 20px;
+  border: 50px solid white;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18,9 +16,7 @@ body {
   text-align: center;
 }
 .Header {
-  color: white;
-  font-family: var(--helveticaFamily);
-  font-size: 4rem;
+margin: auto;
 }
 
 .CardClass {

@@ -3,14 +3,20 @@ import axios from "axios";
 import Navigation from "./components/Navigation";
 import CharacterCard from "./components/CharacterCard";
 
+
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
-
+  // componentDidUpdate(prevProps, prevState) {
+    
+  // }
+  
   const [data, setData] = useState([]);
 
   useEffect(() => {
     axios.get(`https://swapi.co/api/people/`)
+    // axios.get(`https://swapi.co/api/species/`)
+
       .then(res => {
         console.log(res.data.results);
         setData(res.data.results);
